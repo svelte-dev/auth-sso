@@ -4,14 +4,13 @@
   "description": "SSO for Svelte Auth",
   "main": ",/build/index.js",
   "module": "./build/index.js",
+  "svelte": "./build/index.js",
   "types": ",/build/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc --project tsconfig.json",
     "typecheck": "tsc --project tsconfig.json --noEmit",
-    "lint": "eslint --ext .ts,.tsx src/",
-    "test": "jest --config=config/jest.config.ts --passWithNoTests",
-    "coverage": "npm run test -- --coverage"
+    "lint": "eslint --ext .ts,.tsx src/"
   },
   "type": "module",
   "repository": {
@@ -59,6 +58,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@svelte-dev/auth-oauth2": "^0.0.2"
+    "@svelte-dev/auth-oauth2": "latest"
   }
 }
