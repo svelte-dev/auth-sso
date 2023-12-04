@@ -2,9 +2,13 @@
   "name": "@svelte-dev/auth-sso",
   "version": "0.0.3",
   "description": "SSO for Svelte Auth",
-  "main": ",/build/index.js",
-  "module": "./build/index.js",
-  "svelte": "./build/index.js",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "types": ",/build/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
@@ -58,6 +62,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@svelte-dev/auth-oauth2": "latest"
+    "@svelte-dev/auth-oauth2": "^0.0.4"
   }
 }
