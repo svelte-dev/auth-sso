@@ -1,6 +1,6 @@
 {
   "name": "@svelte-dev/auth-sso",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SSO for Svelte Auth",
   "main": ",/build/index.js",
   "module": "./build/index.js",
