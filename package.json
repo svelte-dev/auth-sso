@@ -13,6 +13,7 @@
     "test": "jest --config=config/jest.config.ts --passWithNoTests",
     "coverage": "npm run test -- --coverage"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/willin/svelte-auth-sso.git"
@@ -38,8 +39,8 @@
   ],
   "peerDependencies": {
     "svelte": "^5.0.0 || ^4.0.0",
-		"@sveltejs/kit": "^1.27.4",
-		"@svelte-dev/auth": "latest"
+    "@sveltejs/kit": "^1.27.4",
+    "@svelte-dev/auth": "latest"
   },
   "devDependencies": {
     "@types/node": "^20.8.0",
@@ -47,17 +48,17 @@
     "@typescript-eslint/parser": "^6.7.3",
     "babel-jest": "^29.7.0",
     "eslint": "^8.28.0",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-svelte": "^2.30.0",
-		"prettier": "^3.0.0",
-		"prettier-plugin-svelte": "^3.0.0",
-		"svelte": "^5.0.0-next.17",
-		"svelte-check": "^3.6.0",
-		"vite": "^4.4.2",
-		"vitest": "^0.34.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^3.0.0",
+    "svelte": "^5.0.0-next.17",
+    "svelte-check": "^3.6.0",
+    "vite": "^4.4.2",
+    "vitest": "^0.34.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@svelte-dev/auth-oauth2": "latest"
+    "@svelte-dev/auth-oauth2": "^0.0.2"
   }
 }
