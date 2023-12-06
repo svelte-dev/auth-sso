@@ -1,6 +1,6 @@
 {
   "name": "@svelte-dev/auth-sso",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "SSO for Svelte Auth",
   "exports": {
     ".": {
@@ -41,9 +41,8 @@
     "README.md"
   ],
   "peerDependencies": {
-    "svelte": "^5.0.0 || ^4.0.0",
     "@sveltejs/kit": "^1.27.4",
-    "@svelte-dev/auth": "latest"
+    "svelte": "^5.0.0 || ^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.0",
@@ -62,6 +61,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@svelte-dev/auth-oauth2": "^0.0.4"
+    "@svelte-dev/auth-oauth2": "^0.0.5"
   }
 }
